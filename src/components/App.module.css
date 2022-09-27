@@ -1,8 +1,12 @@
 .container {
-  height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 40;
-  color: #010101;
+  justify-content: center;
+  flex-direction: column;
+
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
